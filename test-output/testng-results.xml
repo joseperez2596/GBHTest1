@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GBH Suite" duration-ms="99536" started-at="2018-02-15T05:44:22Z" finished-at="2018-02-15T05:46:01Z">
+    <groups>
+    </groups>
+    <test name="GBH Test" duration-ms="99536" started-at="2018-02-15T05:44:22Z" finished-at="2018-02-15T05:46:01Z">
+      <class name="Test.NewTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="6264" started-at="2018-02-15T01:44:22Z" finished-at="2018-02-15T01:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Inicio()[pri:0, instance:Test.NewTest@6767c1fc]" name="Inicio" duration-ms="725" started-at="2018-02-15T01:44:28Z" finished-at="2018-02-15T01:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Inicio -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="286" started-at="2018-02-15T01:44:29Z" finished-at="2018-02-15T01:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="7070" started-at="2018-02-15T01:44:29Z" finished-at="2018-02-15T01:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Servicios()[pri:0, instance:Test.NewTest@6767c1fc]" name="Servicios" duration-ms="32462" started-at="2018-02-15T01:44:36Z" depends-on-methods="Test.NewTest.Inicio" finished-at="2018-02-15T01:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Servicios -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="334" started-at="2018-02-15T01:45:09Z" finished-at="2018-02-15T01:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="5563" started-at="2018-02-15T01:45:09Z" finished-at="2018-02-15T01:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Portafolio()[pri:0, instance:Test.NewTest@6767c1fc]" name="Portafolio" duration-ms="2402" started-at="2018-02-15T01:45:15Z" depends-on-methods="Test.NewTest.Servicios" finished-at="2018-02-15T01:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Portafolio -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="269" started-at="2018-02-15T01:45:17Z" finished-at="2018-02-15T01:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="7621" started-at="2018-02-15T01:45:17Z" finished-at="2018-02-15T01:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Conocenos()[pri:0, instance:Test.NewTest@6767c1fc]" name="Conocenos" duration-ms="9662" started-at="2018-02-15T01:45:25Z" depends-on-methods="Test.NewTest.Portafolio" finished-at="2018-02-15T01:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Conocenos -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="339" started-at="2018-02-15T01:45:35Z" finished-at="2018-02-15T01:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="9511" started-at="2018-02-15T01:45:35Z" finished-at="2018-02-15T01:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Empleos()[pri:0, instance:Test.NewTest@6767c1fc]" name="Empleos" duration-ms="6501" started-at="2018-02-15T01:45:44Z" depends-on-methods="Test.NewTest.Conocenos" finished-at="2018-02-15T01:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Empleos -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="332" started-at="2018-02-15T01:45:51Z" finished-at="2018-02-15T01:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="beforeMethod" is-config="true" duration-ms="8104" started-at="2018-02-15T01:45:51Z" finished-at="2018-02-15T01:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="BLOG()[pri:0, instance:Test.NewTest@6767c1fc]" name="BLOG" duration-ms="1791" started-at="2018-02-15T01:45:59Z" depends-on-methods="Test.NewTest.Empleos" finished-at="2018-02-15T01:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BLOG -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@6767c1fc]" name="afterMethod" is-config="true" duration-ms="268" started-at="2018-02-15T01:46:01Z" finished-at="2018-02-15T01:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test.NewTest -->
+    </test> <!-- GBH Test -->
+  </suite> <!-- GBH Suite -->
+</testng-results>
